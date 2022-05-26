@@ -1,0 +1,27 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    margin: 64px auto 0;
+    width: 90%;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .intro {
+      margin: 88px auto 0;
+      width: 93.75%;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .intro {
+      margin: 92px auto 0 4.69%;
+      width: 690px;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .intro {
+      margin: 92px auto 0 11.56%;
+    }
+  }

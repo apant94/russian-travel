@@ -1,0 +1,23 @@
+.cover {
+    margin: 66px auto 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .cover {
+      margin: 90px auto 0;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .cover {
+      margin: 92px auto 0;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .cover {
+      width: 92.5%;
+    }
+  }
