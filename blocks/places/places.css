@@ -4,12 +4,13 @@
     margin: 64px auto 0;
     grid-template-rows: repeat(5, min-content);
     grid-template-columns: 100%;
-    row-gap: 73px;
+    row-gap: 50px;
     align-items: center;
   }
   
   @media screen and (min-width: 768px) {
     .places {
+      row-gap: 73px;
       width: 93.75%;
       margin: 88px auto 0;
     }
@@ -17,6 +18,7 @@
   
   @media screen and (min-width: 1024px) {
     .places {
+      row-gap: 80px;
       width: 90.63%;
       margin: 92px auto 0;
     }
